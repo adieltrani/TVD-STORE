@@ -1,0 +1,109 @@
+main.contato-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; 
+    padding: 40px 20px;
+}
+
+.contato-main > section {
+    flex: 1 1 400px; 
+    max-width: 500px;
+}
+
+#formulario-de-contato {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#formulario-de-contato h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+#formulario-de-contato .form-group {
+    margin-bottom: 20px;
+}
+
+#formulario-de-contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+#formulario-de-contato input[type="text"],
+#formulario-de-contato input[type="email"],
+#formulario-de-contato textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+
+#formulario-de-contato input:focus,
+#formulario-de-contato textarea:focus {
+    outline: none;
+    border-color: #c40000; 
+}
+
+#formulario-de-contato button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #c40000;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#formulario-de-contato button[type="submit"]:hover {
+    background-color: #a00000; 
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#informacoes-de-contato {
+    padding: 20px;
+}
+
+#informacoes-de-contato h2 {
+    margin-top: 0;
+}
+
+#informacoes-de-contato p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+#informacoes-de-contato a {
+    color: #c40000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+#informacoes-de-contato a:hover {
+    text-decoration: underline;
+}

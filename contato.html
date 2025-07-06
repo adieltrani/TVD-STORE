@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | TVD Store</title>
+    <meta name="description" content="Entre em contato com a TVD Store. Envie uma mensagem ou encontre nossas informações de contato.">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+    <header class="navbar">  
+        <div class="menu">
+        <a href="index.html"><h3>TVD Store</h3></a>
+        
+        <nav class="item-menu">
+            <div>
+                <a href="sobre.html"><b>Sobre</b></a>
+                <a href="contato.html"><b>Contato</b></a>
+            </div>
+        </nav> 
+                <button class="menu-hamburguer" aria-label="Abrir menu">
+        <div class="barra"></div>
+        <div class="barra"></div>
+        <div class="barra"></div>
+        </button>
+        </div>
+        
+    </header>
+
+    <main class="contato-main">
+        <section id="formulario-de-contato">
+            <h2>Envie uma Mensagem</h2>
+            <form id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                    <span class="error-message" id="nome-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                    <span class="error-message" id="email-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                    <span class="error-message" id="mensagem-error"></span>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+                <p id="form-success" class="success-message" style="display: none;">Mensagem enviada com sucesso!</p>
+            </form>
+        </section>
+
+        <section id="informacoes-de-contato">
+            <h2>Informações de Contato</h2>
+            <p>Email: <a href="mailto:contato@tvdstore.com">contato@tvdstore.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/adieltrani" target="_blank">linkedin.com/in/adieltrani</a></p>
+            <p>GitHub: <a href="https://github.com/adieltrani" target="_blank">github.com/adieltrani</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Adiel Trani. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

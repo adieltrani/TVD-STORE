@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto | TVD Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">  
+        <div class="menu">
+        <a href="index.html"><h3>TVD Store</h3></a>
+        
+        <nav class="item-menu">
+            <div>
+                <a href="sobre.html"><b>Sobre</b></a>
+                <a href="contato.html"><b>Contato</b></a>
+            </div>
+        </nav> 
+                <button class="menu-hamburguer" aria-label="Abrir menu">
+        <div class="barra"></div>
+        <div class="barra"></div>
+        <div class="barra"></div>
+        </button>
+        </div>
+        
+    </header>
+
+    <main id="detalhe-produto-main">
+        <div class="detalhe-produto">
+            <div class="imagem-container">
+                <img id="produto-img" src="" alt="Imagem do produto">
+            </div>
+            <div class="info-container">
+                <h1 id="produto-nome"></h1>
+                <p id="produto-preco-original" class="precototal"></p>
+                <p id="produto-preco-atual" class="preco"></p>
+                <button id="botao-comprar-detalhe">COMPRAR</button>
+                <button id="botao-carrinho">ADICIONAR AO CARRINHO</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Adiel Trani. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/produto.js"></script>
+</body>
+</html>
